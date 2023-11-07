@@ -1,0 +1,35 @@
+.itemsContainer{
+  width: 70%;
+  margin: auto;
+}
+
+.shopinfo{
+  text-align: center;
+  
+  width:50%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f8fadb;
+  
+}
+
+.additem{
+  padding:20px;
+  text-align: center;
+}
+.additemform{
+  display:none;
+  width:30%;
+  
+  margin:auto;
+  min-width: 300px;
+  
+
+
+}
+.submit{
+  margin:20px;
+}
+
+

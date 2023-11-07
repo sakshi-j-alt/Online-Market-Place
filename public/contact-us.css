@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+    background-image: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Contact Form styles */
+header {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    margin-bottom: 20px;
+    top: 0;
+    
+}
+
+
+
+
+h1 {
+    font-size: 28px;
+    background-color:orange;
+   
+}
+
+.content {
+    
+    align-items: center;
+   
+}
+
+.contact-info {
+    
+    align-items: center;
+    bottom: 10px;
+}
+
+.contact-info img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.info-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-text p {
+    margin-bottom: 5px;
+}
+
+form {
+   
+    flex: 1;
+    justify-content: baseline;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: orange;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
